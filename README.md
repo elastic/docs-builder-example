@@ -38,6 +38,5 @@ docker run -v "./.git:/app/.git" -v "./docs:/app/docs" -v "./.artifacts:/app/.ar
 ### Live mode
 
 ```bash
-docker run -v "./.git:/app/.git" -v "./docs:/app/docs" -v "./.artifacts:/app/.artifacts" \
-  --expose 8080 ghcr.io/elastic/docs-builder:edge serve
+docker run -v "./.git:/app/.git" -v "./docs:/app/docs" -v "./.artifacts:/app/.artifacts" -p 8080:8080 ghcr.io/elastic/docs-builder:edge serve
 ```
