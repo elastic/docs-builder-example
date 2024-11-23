@@ -4,6 +4,8 @@ title: Elastic Docs v3
 
 You've reached the home of the latest incarnation of the documentation tooling. 
 
+I've added a link here to a [page](elastic/index2.md) that does not exists.
+
 This repository is host to:
 
 * *`docs-builder`* command line tool to generate single doc-sets (13mb native code, no dependencies)
