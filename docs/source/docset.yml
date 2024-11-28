@@ -41,6 +41,26 @@ toc:
             children:
               - file: search/req.md
               - file: search/setup.md
+      - folder: deploy
+        children: 
+          - file: index.md
+          - folder: cloud-hosted
+          - folder: cloud-serverless
+          - file: ece/install_ece.md
+            children:
+              - file: ece/install_ece_on_cloud.md
+              - file: ece/install_ece_on_prem.md
+                children:
+                  - file: ece/configure_os.md
+                    children:
+                      - file: ece/ubuntu1.md
+                      - file: ece/ubuntu2.md
+                      - file: ece/ubuntu3.md
+                      - file: ece/redhat.md
+                      - file: ece/suse.md
+          - file: self-managed/install_stack.md
+            children:
+              - file: self-managed/elasticsearch/elasticsearch_targz.md
   - folder: nested
     children:
       - folder: content
