@@ -41,6 +41,19 @@ toc:
             children:
               - file: search/req.md
               - file: search/setup.md
+      - folder: deploy
+        children: 
+          - file: index.md
+            children:
+              - file: self-managed/install_stack.md
+                children:
+                  - file: self-managed/elasticsearch/elasticsearch_targz.md
+              - file: cloud-hosted/create_deployment.md
+              - file: cloud-serverless/create_project.md
+              - file: ece/install_ece.md
+                children:
+                  - file: ece/install_ece_on_cloud.md
+                  - file: ece/install_ece_on_prem.md
   - folder: nested
     children:
       - folder: content
