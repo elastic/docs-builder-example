@@ -10,3 +10,4 @@ Here's what we have so far:
 * [Search Labs Tutorial](search-labs/index.md) — A partial port of the Search Labs Tutorials content currently hosted [here](https://www.elastic.co/search-labs/tutorials).
 * [Automated Settings Reference](reference/index.md) — An example of an automatically automated setting
 * [Observability overview](observability/index.md) — Nothing special, just a bunch of images and text.
+* [Deploy and manage](deploy/index.md)
