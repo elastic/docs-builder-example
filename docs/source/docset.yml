@@ -46,3 +46,16 @@ toc:
       - folder: content
       - file: index.md
   - folder: versioning
+  - folder: upgrade-mockup
+    children:
+      - file: index.md
+      - folder: plan-upgrade
+      - folder: prepare-upgrade
+      - folder: breaking-changes
+      - folder: elastic-cloud
+      - folder: on-prem
+      - folder: elasticsearch
+      - folder: kibana
+      
+
+
