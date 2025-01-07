@@ -21,21 +21,26 @@ jobs:
       name: github-pages
       url: ${{steps.deployment.outputs.page_url}}
     steps:
+
       - id: repo-basename
         run: 'echo "value=`basename ${{ github.repository }}`" >> $GITHUB_OUTPUT'
+
       - name: Checkout the repo
         # Verified creator: https://github.com/marketplace/actions/checkout
         # GitHub Action for checking out a repo
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
       - name: Setup Pages
         id: pages
         # Verified creator: https://github.com/marketplace/actions/configure-github-pages
         # A GitHub Action to enable Pages and extract various metadata about a site.
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
+
       - name: Build documentation
         uses: elastic/docs-builder@main
         with:
           prefix: '${{ steps.repo-basename.outputs.value }}'
+
       - name: Upload artifact
         # Verified creator: https://github.com/marketplace/actions/upload-github-pages-artifact
         # A composite action for packaging and uploading an artifact that can be deployed to GitHub Pages.
