@@ -13,7 +13,7 @@ Then you can use the builtin build command `CMD+SHIFT+B` to build this repositor
 
 * Incremental: does a full build initially after which it will only compile changed files on each subsequent invocation
 * Full: always does a full build.
-* Serve: serves the documentation in 'live' mode at http://localhost:8080.
+* Serve: serves the documentation in 'live' mode at http://localhost:3000.
     - All changes should be reflected on the live site without restarting.
 
 
@@ -38,5 +38,5 @@ docker run -v "./.git:/app/.git" -v "./docs:/app/docs" -v "./.artifacts:/app/.ar
 ### Live mode
 
 ```bash
-docker run -v "./.git:/app/.git" -v "./docs:/app/docs" -v "./.artifacts:/app/.artifacts" -p 8080:8080 ghcr.io/elastic/docs-builder:edge serve
+docker run -v "./.git:/app/.git" -v "./docs:/app/docs" -v "./.artifacts:/app/.artifacts" -p 3000:3000 ghcr.io/elastic/docs-builder:edge serve
 ```
