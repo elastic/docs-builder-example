@@ -60,5 +60,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Link to admonitions
 You can add a 'name' option to an admonition, so that you can link to it elsewhere
 
-%Commented out failing admonition
-%Here is a [link to attention](#caution_ref)
