@@ -1,6 +1,6 @@
 ---
-title: Kibana settings
-navigation_title: "Settings"
+title: Kibana configuration reference
+navigation_title: "Configuration reference"
 ---
 
 Configuration settings enable you to customize the behavior of Kibana apps and features.

@@ -49,6 +49,6 @@ toc:
   - folder: reference-overview     
     children:
       - file: index.md
-      - file: kibana/overview.md
+      - file: kibana-reference.md
         children:
-          - file: kibana/settings.md
+          - file: kibana-configuration.md

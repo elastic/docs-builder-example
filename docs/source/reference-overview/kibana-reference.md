@@ -1,5 +1,5 @@
 ---
-title: Kibana Reference
+title: Kibana reference
 navigation_title: "Kibana"
 ---
 
