@@ -46,3 +46,9 @@ toc:
       - folder: content
       - file: index.md
   - folder: versioning
+  - folder: reference-overview     
+    children:
+      - file: index.md
+      - file: elasticsearch-reference.md
+        children:
+          - file: elasticsearch-configuration.md
