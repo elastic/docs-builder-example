@@ -6,7 +6,7 @@ nav_title: Elasticsearch and index management
 
 % TO-DO: Add links to "Elasticsearch basics"%
 
-This section of the documentation contains reference information for Elasticsearch and index management features, including:
+This section contains reference information for Elasticsearch and index management features, including:
 
 * Settings
 * Security roles and privileges
