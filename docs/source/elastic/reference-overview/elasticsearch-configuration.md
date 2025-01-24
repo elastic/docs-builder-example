@@ -1,5 +1,5 @@
 ---
-title: lasticsearch configuration reference
+title: Elasticsearch configuration reference
 navigation_title: "Configuration reference"
 ---
 
